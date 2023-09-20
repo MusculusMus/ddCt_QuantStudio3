@@ -26,7 +26,7 @@ SYS.PARAM.SYNTAX        <- "^--([^=\\s]+)=?([^\\s]*)$"
 ############################################
 ## used columns of data
 ############################################
-PRIMARY.INPUT.COLS      <- c("Sample","Detector","Ct");
+PRIMARY.INPUT.COLS      <- c("Sample Name","Target Name","CT");
 
 ##----------------------------------------##
 ## Default sample, feature, and Ct column names
